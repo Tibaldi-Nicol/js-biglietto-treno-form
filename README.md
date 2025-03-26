@@ -11,3 +11,15 @@ MILESTONE 2: Solo una volta che il milestone 1 sarà completo e funzionante allo
 MILESTONE 3: Ora che la logica è funzionante in pagina, possiamo andare a dedicarci allo stile, raffinando la parte di HTML e CSS in modo da renderla esteticamente gradevole.
 Numero minimo di push: 8
 Nota: Se non vi sentite particolarmente creativi, questa potrebbe essere un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra
+
+analisi esefcizio
+creare una webb app per il boioglietto del treno
+in base a 
+km da percorrere 
+eta del passeggero
+REGOLE PER IL COSTO DEL BIGLIETTO
+0.21 centesimi per km 
+sconti da applicare:
+under 18 sconto del 20%
+OVER65 SCONTO DEL 40%
+Maggiorenni nesssuno sconto
