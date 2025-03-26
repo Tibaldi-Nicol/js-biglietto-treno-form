@@ -1,35 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biglietto Treno JS</title>
+    <title>Calcolo Biglietto Treno</title>
     <link rel="stylesheet" href="../css/style.css">
-
 </head>
 <body>
     <div class="container-grande">
         <div class="container">
             <ul>
                 <li><h1>Calcolo Biglietto Treno</h1></li>
-                <li> Nome e Cognome<label for="name"></label>
-                    <input type="name" id="name">
+                <li>Nome e Cognome
+                    <input type="text" id="name" placeholder="Inserisci il tuo nome">
                 </li>
-                <li>Chilometri<label for="chilometri"></label>
-                    <input type="number" id="chilometri">
+                <li>Chilometri
+                    <input type="number" id="chilometri" placeholder="Inserisci i chilometri">
                 </li>
-                <li> <label for="eta">Eta</label>
-                    <input type="number" id="eta">
+                <li>Età
+                    <input type="number" id="eta" placeholder="Inserisci la tua età">
                 </li>
             </ul>
             <hr>
             <button id="calcola" onclick="calcolaBiglietto()">Calcola Prezzo</button>
-            <button id="annulla" clonclick="annulla">Annulla</button>
-            <h2>Prezzo Biglietto</h2>
-            <div id="prezzo"></div>
+            <button id="annulla" onclick="annulla()">Annulla</button>
             
+            <div id="riepilogo">
+                <h2>Riepilogo Biglietto</h2>
+                <p id="dettagli-biglietto"></p>
+            </div>
         </div>
     </div>
-    <script src="./script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
