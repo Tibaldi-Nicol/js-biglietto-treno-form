@@ -4,10 +4,14 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #E54F6D;
 }
 .container {
-    width: 300px;
-    background-color: ;
+    
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
 }
 ul {
     list-style-type: none;
@@ -17,10 +21,40 @@ ul {
 li {
     text-align: left;
     margin-bottom: 10px;
+    
 }
 input {
     width: 100%;
     box-sizing: border-box;
+}
+#calcola{
+    background-color: #F78C6B;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#annulla{
+    background-color: white;
+    color: black;
+    
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    font-size: medium;
+}
+label{
+    border-radius: 5px;
+}
+h1{
+    color: #E54F6D;
 }
 
 

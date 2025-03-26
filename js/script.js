@@ -59,3 +59,7 @@ document.getElementById("prezzo").innerHTML = "Il prezzo del biglietto è: " + p
 //alert di saluto
 alert("Buon viaggio!");
 }
+
+//aggiungo un evento quando clicco calcola prezzo mi spunta un altra sezione che mi da tutto il riassunto del mio biglietto
+//aggiungo un evento al bottone calcola prezzo
+document.getElementById("calcola").addEventListener("click", calcolaBiglietto);
