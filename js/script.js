@@ -8,11 +8,12 @@
 
 // Chiediamo all'utente i chilometri da percorrere
 //dichiaro la variabile chilometri e chiedo all'utente di inserire i chilometri da percorrere
-const chilometri = prompt("Inserisci il numero di chilometri:");
+function calcolaBiglietto(){
+const chilometri = document.getElementById("chilometri").value;
 
 // Chiediamo all'utente l'età del passeggero
 //dichiaro la variabile eta e chiedo all'utente di inserire l'età del passeggero
-const eta = prompt("inserisci leta del passeggero:");
+const eta = document.getElementById("eta").value;
 
 // Calcoliamo il prezzo base: 0.21 € per km
 //dichiaro la variabile prezzoBase e calcolo il prezzo base del biglietto
@@ -53,7 +54,8 @@ const prezzoSistemato = prezzoFinale.toFixed(2);
 //alert("Il prezzo del biglietto è " + prezzoFinale + "€");
 //somma parole e variabili( prezzosistemato)
 //mostriamo il prezzo finale all'utente con un alert
-alert("Il prezzo del biglietto è: " + prezzoSistemato + "€");
+document.getElementById("prezzo").innerHTML = "Il prezzo del biglietto è: " + prezzoSistemato + "€";
 //semplice messaggio di saluto
 //alert di saluto
 alert("Buon viaggio!");
+}
