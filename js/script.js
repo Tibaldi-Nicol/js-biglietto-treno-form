@@ -45,3 +45,15 @@ else{
 //se l'età è minore di 18 anni applico uno sconto del 20% al prezzo base    
 //se l'età è maggiore o uguale a 65 anni applico uno sconto del 40% al prezzo base
 //se l'età è compresa tra 18 e 65 anni non applico nessuno sconto
+
+// Formattiamo il prezzo con massimo due decimali
+//dichiaro la variabile prezzoSistemato e formattiamo il prezzo finale con massimo due decimali
+const prezzoSistemato = prezzoFinale.toFixed(2);
+//mostriamo il risultato all'utente( prezzo finale)
+//alert("Il prezzo del biglietto è " + prezzoFinale + "€");
+//somma parole e variabili( prezzosistemato)
+//mostriamo il prezzo finale all'utente con un alert
+alert("Il prezzo del biglietto è: " + prezzoSistemato + "€");
+//semplice messaggio di saluto
+//alert di saluto
+alert("Buon viaggio!");
